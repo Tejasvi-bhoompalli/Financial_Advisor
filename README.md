@@ -91,6 +91,6 @@ financial-advisor-agent/
 
 Team
 
-1.Tejasvi Bhoompalli
-2.A Likitha
+1. Tejasvi Bhoompalli
+2. A Likitha
 
