@@ -57,3 +57,10 @@ Explain folders here
 - Portfolio optimization
 - Voice-based assistant
 
+---
+
+Team
+
+Tejasvi Bhoompalli
+A Likitha
+
