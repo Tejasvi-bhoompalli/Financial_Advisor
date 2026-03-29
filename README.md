@@ -47,10 +47,41 @@ python app.py
 
 📂 Project Structure
 
-Explain folders here
+## 📂 Project Structure
+
+financial-advisor-agent/
+│
+├── app.py                  # Main application (entry point)
+├── agent.py                # AI agent logic (LLM + RAG)
+├── tools.py                # Custom tools (calculator, finance logic)
+├── prompts.py              # Prompt templates for LLM
+├── config.py               # Configuration & API keys
+│
+├── data/                   # Financial datasets
+│   └── sample_data.csv
+│
+├── vectorstore/            # Chroma / FAISS database
+│
+├── docs/                   # Project documentation
+│   └── financial_advisor.pdf
+│
+├── assets/                 # Images / screenshots
+│
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+└── .env                    # Environment variables
 
 ---
 
+### 🔍 Description
+
+- **app.py**: Runs the application interface  
+- **agent.py**: Handles AI reasoning and decision-making  
+- **tools.py**: Contains utility functions for financial calculations  
+- **vectorstore/**: Stores embeddings for retrieval (RAG)  
+- **data/**: Contains datasets used in the project
+
+---
 🔮 Future Improvements
 
 - Real-time stock market integration
@@ -61,6 +92,6 @@ Explain folders here
 
 Team
 
-Tejasvi Bhoompalli
-A Likitha
+-Tejasvi Bhoompalli
+-A Likitha
 
