@@ -47,8 +47,6 @@ python app.py
 
 📂 Project Structure
 
-## 📂 Project Structure
-
 financial-advisor-agent/
 │
 ├── app.py                  # Main application (entry point)
@@ -60,7 +58,7 @@ financial-advisor-agent/
 ├── data/                   # Financial datasets
 │   └── sample_data.csv
 │
-├── vectorstore/            # Chroma / FAISS database
+├── vectorstore/            # Chroma / FAISS database for RAG
 │
 ├── docs/                   # Project documentation
 │   └── financial_advisor.pdf
@@ -71,16 +69,17 @@ financial-advisor-agent/
 ├── README.md               # Project documentation
 └── .env                    # Environment variables
 
----
+🔍 Description
 
-### 🔍 Description
-
-- **app.py**: Runs the application interface  
-- **agent.py**: Handles AI reasoning and decision-making  
-- **tools.py**: Contains utility functions for financial calculations  
-- **vectorstore/**: Stores embeddings for retrieval (RAG)  
-- **data/**: Contains datasets used in the project
-
+- app.py: Runs the application interface
+- agent.py: Handles AI reasoning and decision-making
+- tools.py: Contains utility functions for financial calculations
+- prompts.py: Stores prompt templates used by the LLM
+- config.py: Manages API keys and configuration settings
+- vectorstore/: Stores embeddings for retrieval (RAG)
+- data/: Contains datasets used in the project
+- docs/: Includes project documentation and reports
+- assets/: Stores images and screenshots for README
 ---
 🔮 Future Improvements
 
