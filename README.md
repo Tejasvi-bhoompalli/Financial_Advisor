@@ -57,8 +57,3 @@ Explain folders here
 - Portfolio optimization
 - Voice-based assistant
 
----
-
-👨‍💻 Author
-
-Tejasvi Bhoompalli
