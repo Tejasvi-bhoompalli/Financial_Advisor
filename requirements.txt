@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly
+google-generativeai
+Pillow
+pytesseract
+faiss-cpu
